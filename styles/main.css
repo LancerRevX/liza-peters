@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Scada;
+    src: url('/fonts/Scada/Scada-Regular.ttf');
+}
+
+@font-face {
+    font-family: Scada;
+    font-weight: 700;
+    src: url('/fonts/Scada/Scada-Bold.ttf');
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Scada;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 130px;
+    height: 80px;
+    background-image: url('/images/title.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-text {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    transform: rotate(-16deg);
+    text-transform: uppercase;
+}
+
+header {
+    height: 115px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.social-buttons a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.social-buttons a.vk {
+    background-image: url('/images/social/vk.png');
+}
+
+.social-buttons a.tg {
+    background-image: url('/images/social/tg.png');
+}
+
+.social-buttons a.whatsapp {
+    background-image: url('/images/social/whatsapp.png');
+}
+
+.social-buttons a.email {
+    background-image: url('/images/social/email.png');
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        height: 160px;
+    }
+
+    .container {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .white-container {
+        padding: 0 calc((100vw - 1000px) / 2);
+        background-color: white;
+    }
+
+    main {
+        width: 1000px;
+        margin: 0 auto;
+        gap: 30px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .row {
+        gap: 30px;
+    }
+
+    .title {
+        width: 230px;
+        height: 120px;
+    }
+
+    .title-text {
+        font-size: 22px;
+    }
+
+    footer {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-tape {
+        position: relative;
+        background-image: url('/images/footer.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 1000px;
+        height: 200px;
+
+    }
+
+    .social-buttons {
+        position: relative;
+        width: min-content;
+        top: 50px;
+        left: 720px;
+    }
+
+    .social-buttons a {
+        width: 40px;
+        height: 40px;
+    }
+}

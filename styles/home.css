@@ -1,0 +1,81 @@
+header {
+    height: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    position: static;
+    width: 300px;
+}
+.menu-title {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.menu.collapsed:hover {
+    top: 0;
+}
+
+.menu-tape {
+    padding-top: 20px;
+    padding-right: 48px;
+    padding-bottom: 6em;
+    gap: 24px;
+}
+
+.menu-links {
+    gap: 8px;
+}
+
+.menu-links a {
+    font-size: 22px;
+}
+
+.menu-bottom-link {
+    font-size: 27px;
+}
+
+.menu-collapse-button {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        width: 300px;
+    }
+    
+    .menu-tape {
+        padding-top: 6em;
+        padding-right: 3em;
+        padding-bottom: 6em;
+    }
+
+    .photo {
+        width: 500px;
+        margin-left: 80px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -140px;
+    }
+}

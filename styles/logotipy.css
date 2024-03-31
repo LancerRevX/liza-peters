@@ -1,0 +1,52 @@
+.logotipy-container {
+    margin-bottom: 50px;
+}
+
+.logotipy {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logotipy img {
+    width: 100%;
+    height: auto;
+}
+
+.logotipy .row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        height: 580px;
+    }
+
+    .menu.collapsed {
+        top: 0;
+    }
+
+    .menu-tape {
+        padding-bottom: 6em;
+    }
+
+    .logotipy-container {
+        margin-bottom: 0;
+        background-color: white;
+    }
+
+    .logotipy {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .logotipy .row {
+        position: absolute;
+        top: -350px;
+        width: 600px;
+    }
+}

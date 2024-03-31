@@ -1,0 +1,32 @@
+.plakaty {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.plakaty.top .row {
+    flex-direction: column;
+}
+
+.plakaty.middle .row {
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+    .plakaty {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .plakaty.top .row {
+        flex-direction: row;
+    }
+}

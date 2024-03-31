@@ -1,0 +1,12 @@
+.vizitki .row {
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .vizitki .row {
+        flex-direction: row;
+        padding: 0 200px;
+        gap: 20px;
+    }
+}
