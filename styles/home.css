@@ -2,6 +2,11 @@ header {
     height: 0;
 }
 
+.home {
+    padding: 0;
+    margin-bottom: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -44,12 +49,15 @@ header {
     display: none;
 }
 
+.photo {
+    position: relative;
+}
+
+.photo-title {
+    display: none;
+}
+
 @media screen and (min-width: 1000px) {
-    html {
-        max-height: 100vh;
-        overflow: hidden;
-    }
-    
     .container {
         display: block;
     }
@@ -58,7 +66,7 @@ header {
         position: absolute;
         width: 300px;
     }
-    
+
     .menu-tape {
         padding-top: 6em;
         padding-right: 3em;
@@ -74,8 +82,38 @@ header {
         justify-content: end;
     }
 
+    .photo-title {
+        display: block;
+        position: absolute;
+        left: 100px;
+        bottom: 40px;
+        color: white;
+    }
+
+    .photo-title span {
+        display: block;
+        text-transform: uppercase;
+        line-height: 0.9;
+    }
+
+    .photo-title span:nth-child(1) {
+        font-size: 70px;
+    }
+
+    .photo-title span:nth-child(2) {
+        font-size: 33px;
+    }
+
+    .photo-title span:nth-child(3) {
+        font-size: 50px;
+    }
+
     footer {
         position: absolute;
         bottom: -140px;
+    }
+
+    .footer-tape {
+        height: 200px;
     }
 }

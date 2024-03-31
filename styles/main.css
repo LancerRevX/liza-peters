@@ -60,6 +60,7 @@ main {
 .row {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 footer {
@@ -71,6 +72,7 @@ footer {
 img {
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 .social-buttons {
@@ -147,11 +149,11 @@ img {
     .footer-tape {
         position: relative;
         background-image: url('../images/footer.png');
-        background-size: contain;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: top;
         width: 1000px;
-        height: 200px;
+        height: 120px;
 
     }
 

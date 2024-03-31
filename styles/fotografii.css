@@ -1,3 +1,7 @@
+.fotografii .row {
+    flex-direction: column;
+}
+
 @media screen and (min-width: 1000px) {
     .fotografii .row:nth-child(3) {
         margin-top: 30px;
