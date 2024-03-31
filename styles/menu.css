@@ -11,7 +11,7 @@
 }
 
 .menu-tape {
-    background-image: url("images/menu.png");
+    background-image: url("../images/menu.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;

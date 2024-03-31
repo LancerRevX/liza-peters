@@ -1,12 +1,12 @@
 @font-face {
     font-family: Scada;
-    src: url('/fonts/Scada/Scada-Regular.ttf');
+    src: url('../fonts/Scada/Scada-Regular.ttf');
 }
 
 @font-face {
     font-family: Scada;
     font-weight: 700;
-    src: url('/fonts/Scada/Scada-Bold.ttf');
+    src: url('../fonts/Scada/Scada-Bold.ttf');
 }
 
 html {
@@ -30,7 +30,7 @@ body {
     left: 25px;
     width: 130px;
     height: 80px;
-    background-image: url('/images/title.png');
+    background-image: url('../images/title.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -86,19 +86,19 @@ img {
 }
 
 .social-buttons a.vk {
-    background-image: url('/images/social/vk.png');
+    background-image: url('../images/social/vk.png');
 }
 
 .social-buttons a.tg {
-    background-image: url('/images/social/tg.png');
+    background-image: url('../images/social/tg.png');
 }
 
 .social-buttons a.whatsapp {
-    background-image: url('/images/social/whatsapp.png');
+    background-image: url('../images/social/whatsapp.png');
 }
 
 .social-buttons a.email {
-    background-image: url('/images/social/email.png');
+    background-image: url('../images/social/email.png');
 }
 
 @media screen and (min-width: 1000px) {
@@ -146,7 +146,7 @@ img {
     
     .footer-tape {
         position: relative;
-        background-image: url('/images/footer.png');
+        background-image: url('../images/footer.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top;
