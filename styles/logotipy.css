@@ -25,12 +25,19 @@
         height: 580px;
     }
 
+    .menu {
+        top: 0;
+    }
+
     .menu.collapsed {
         top: 0;
     }
 
     .menu-tape {
+        padding-top: 6em;
+        padding-right: 3em;
         padding-bottom: 6em;
+        gap: 24px;
     }
 
     .logotipy-container {

@@ -64,7 +64,7 @@
     }
     
     .menu.collapsed {
-        top: -500px;
+        top: -450px;
     }
 
     .menu-title {
@@ -78,8 +78,8 @@
 
     .menu-tape {
         padding-right: 48px;
-        padding-bottom: 180px;
-        gap: 24px;
+        padding-bottom: 100px;
+        gap: 40px;
     }
 
     .menu-links {
