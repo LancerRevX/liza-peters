@@ -54,7 +54,29 @@ header {
 }
 
 .photo-title {
-    display: none;
+    display: block;
+    position: absolute;
+    left: 23%;
+    bottom: 4%;
+    color: white;
+}
+
+.photo-title span {
+    display: block;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+
+.photo-title span:nth-child(1) {
+    font-size: 70px;
+}
+
+.photo-title span:nth-child(2) {
+    font-size: 33px;
+}
+
+.photo-title span:nth-child(3) {
+    font-size: 50px;
 }
 
 @media screen and (min-width: 1000px) {
